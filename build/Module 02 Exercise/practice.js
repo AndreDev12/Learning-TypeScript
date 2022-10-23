@@ -8,3 +8,6 @@ var ContractStatus;
 let employeeStatus = ContractStatus.Temp;
 console.log(employeeStatus);
 console.log(ContractStatus[employeeStatus]);
+let randomValue = 10;
+randomValue = 'Mateo'; // OK
+randomValue = true; // OK
