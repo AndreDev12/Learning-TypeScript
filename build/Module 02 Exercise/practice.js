@@ -20,3 +20,26 @@ randomValue.toUppercase();
 // Nota:
 // any omite las comprobaciones en tiempo de compilación y el objeto se evalúa en tiempo de ejecución.
 // Las aserciones de tipos tienen dos formatos. Una es la sintaxis de as y la otra es la sintaxis de "corchetes angulares".
+// *Tipos de unión
+let multiType;
+multiType = 20;
+multiType = true;
+multiType = "twenty";
+function add(x, y) {
+    if (typeof x === 'number' && typeof y === 'number') {
+        return x + y;
+    }
+    if (typeof x === 'string' && typeof y === 'string') {
+        return x.concat(y);
+    }
+    throw new Error('Parameters must be numbers or strings');
+}
+console.log(add('one', 'two')); //* Returns "onetwo"
+console.log(add(1, 2)); //* Returns 3
+console.log(add('one', 2)); //* Returns error
+let newManager = {
+    employeeID: 12345,
+    age: 34,
+    stockPlan: true
+};
+// *Tipos literales
