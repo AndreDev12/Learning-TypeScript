@@ -16,9 +16,9 @@ let randomValue: unknown = 10;
 randomValue = true;
 randomValue = 'Mateo';
 
-console.log(randomValue.name);
-randomValue();
-randomValue.toUppercase();
+// console.log(randomValue.name);
+// randomValue();
+// randomValue.toUppercase();
 
 // Nota:
 // any omite las comprobaciones en tiempo de compilación y el objeto se evalúa en tiempo de ejecución.
@@ -29,7 +29,7 @@ randomValue.toUppercase();
 let multiType: number | boolean;
 multiType=20;
 multiType=true;
-multiType="twenty";
+// multiType="twenty";
 
 function add(x: number | string, y: number | string) {
     if (typeof x === 'number' && typeof y === 'number') {
@@ -62,3 +62,12 @@ let newManager: ManagementEmployee = {
 
 
 // *Tipos literales
+type testResult = "pass" | "fail" | "incomplete";
+let myResult: testResult;
+myResult = "incomplete";
+myResult = "pass";
+// myResult = "failure";
+
+
+// *Matrices
+let list: number[] = [1,2,3];

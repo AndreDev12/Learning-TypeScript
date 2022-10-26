@@ -14,9 +14,9 @@ console.log(ContractStatus[employeeStatus]);
 let randomValue = 10;
 randomValue = true;
 randomValue = 'Mateo';
-console.log(randomValue.name);
-randomValue();
-randomValue.toUppercase();
+// console.log(randomValue.name);
+// randomValue();
+// randomValue.toUppercase();
 // Nota:
 // any omite las comprobaciones en tiempo de compilación y el objeto se evalúa en tiempo de ejecución.
 // Las aserciones de tipos tienen dos formatos. Una es la sintaxis de as y la otra es la sintaxis de "corchetes angulares".
@@ -24,7 +24,7 @@ randomValue.toUppercase();
 let multiType;
 multiType = 20;
 multiType = true;
-multiType = "twenty";
+// multiType="twenty";
 function add(x, y) {
     if (typeof x === 'number' && typeof y === 'number') {
         return x + y;
@@ -42,4 +42,9 @@ let newManager = {
     age: 34,
     stockPlan: true
 };
-// *Tipos literales
+let myResult;
+myResult = "incomplete";
+myResult = "pass";
+// myResult = "failure";
+// *Matrices
+let list = [1, 2, 3];
