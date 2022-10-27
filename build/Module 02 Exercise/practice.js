@@ -48,3 +48,8 @@ myResult = "pass";
 // myResult = "failure";
 // *Matrices
 let list = [1, 2, 3];
+let listNew = [1, 2, 3];
+// *Tuplas
+let person1 = ['Marcia', 35];
+// let person1: [string, number] = ['Marcia', 35, true];
+// let person1: [string, number] = [35, 'Marcia'];
