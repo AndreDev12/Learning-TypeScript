@@ -37,11 +37,6 @@ function add(x, y) {
 console.log(add('one', 'two')); //* Returns "onetwo"
 console.log(add(1, 2)); //* Returns 3
 console.log(add('one', 2)); //* Returns error
-let newManager = {
-    employeeID: 12345,
-    age: 34,
-    stockPlan: true
-};
 let myResult;
 myResult = "incomplete";
 myResult = "pass";
