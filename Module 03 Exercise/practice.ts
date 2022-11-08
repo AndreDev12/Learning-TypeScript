@@ -13,3 +13,11 @@ let employee: Employee = {
 }
 
 employee.firstName = 10;
+
+// Interfaz describe formas de datos
+// Alias de tipo es una definición de un tipo de dato
+type Employee = {
+    firstName: string;
+    lastName: string;
+    fullName(): string;
+}
