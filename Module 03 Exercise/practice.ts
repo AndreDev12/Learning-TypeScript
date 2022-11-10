@@ -4,20 +4,20 @@ interface Employee{
     fullName(): string; 
 }
 
-let employee: Employee = {
-    firstName: "Emil",
-    lastName:  "Anderson",
-    fullName(): string{
-        return this.firstName + " " + this.lastName;
-    } 
-}
+// let employee: Employee = {
+//     firstName: 'Emil',
+//     lastName:  'Anderson',
+//     fullName(): string{
+//         return this.firstName + " " + this.lastName;
+//     } 
+// }
 
-employee.firstName = 10;
+// employee.firstName = 'Keyla';
 
 // Interfaz describe formas de datos
 // Alias de tipo es una definición de un tipo de dato
-type Employee = {
-    firstName: string;
-    lastName: string;
-    fullName(): string;
-}
+// type Employee = {
+//     firstName: string;
+//     lastName: string;
+//     fullName(): string;
+// }

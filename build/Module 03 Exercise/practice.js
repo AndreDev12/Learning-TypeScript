@@ -1,9 +1,16 @@
 "use strict";
-let employee = {
-    firstName: "Emil",
-    lastName: "Anderson",
-    fullName() {
-        return this.firstName + " " + this.lastName;
-    }
-};
-employee.firstName = 10;
+// let employee: Employee = {
+//     firstName: 'Emil',
+//     lastName:  'Anderson',
+//     fullName(): string{
+//         return this.firstName + " " + this.lastName;
+//     } 
+// }
+// employee.firstName = 'Keyla';
+// Interfaz describe formas de datos
+// Alias de tipo es una definición de un tipo de dato
+// type Employee = {
+//     firstName: string;
+//     lastName: string;
+//     fullName(): string;
+// }
