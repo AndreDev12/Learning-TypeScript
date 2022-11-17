@@ -25,15 +25,15 @@ interface Sundae extends IceCream{
     sauce: 'chocolate' | 'caramel' | 'strawberry';
     nuts?: boolean;
     whippedCream?: boolean;
-    instructions?: boolean; 
+    // instructions?: boolean; 
 }
 
-let myIceCream: Sundae = {
-    flavor: 'vanilla',
-    scoops: 2, 
-    sauce: 'caramel',
-    nuts: true   
-}
+// let myIceCream: Sundae = {
+//     flavor: 'vanilla',
+//     scoops: 2, 
+//     sauce: 'caramel',
+//     nuts: true   
+// }
 
 function tooManyScoops(dessert: Sundae){
     if(dessert.scoops >= 4){
