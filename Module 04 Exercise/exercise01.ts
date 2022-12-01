@@ -1,4 +1,10 @@
-function addNumbers (x: number, y: number): number {
+// function addNumbers (x: number, y: number): number {
+//     return x + y;
+// }
+// addNumbers(1, 2);
+
+//  Funciones anónimas
+let addNumbers = function (x: number, y: number): number {
     return x + y;
- }
- addNumbers(1, 2);
+}
+addNumbers(1, 2);
