@@ -19,3 +19,10 @@ let total = function (input) {
     return total;
 };
 console.log(total([1, 2, 3]));
+// Funciones de flecha
+// Anonymous function
+let addNumbers1 = function (x, y) {
+    return x + y;
+};
+// Arrow function
+let addNumbers2 = (x, y) => x + y;
