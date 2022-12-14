@@ -14,4 +14,4 @@ function sum(input) {
     }
     return total;
 }
-sum(23);
+sum([1, 2, 5]);

@@ -4,9 +4,9 @@
 // }
 // addNumbers(1, 2);
 //  Funciones anónimas
-let addNumbers = function (x, y) {
-    return x + y;
-};
+// let addNumbers = function (x: number, y: number): number {
+//     return x + y;
+// }
 addNumbers(1, 2);
 let total = function (input) {
     let total = 0;
