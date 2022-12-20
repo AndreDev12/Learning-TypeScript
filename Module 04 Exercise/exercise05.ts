@@ -1,0 +1,1 @@
+type calculator = (x: number, y: number) => number;

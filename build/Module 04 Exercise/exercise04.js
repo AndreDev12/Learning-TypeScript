@@ -17,5 +17,5 @@ addThreeNumbers(10, 20, 30);
 // Parámetros predeterminados
 // let subtractThreeNumbers = (x:number, y:number, z:number): number => x - y - z;
 let subtractThreeNumbers = (x, y, z = 100) => x - y - z;
-// subtractThreeNumbers(10, 20);
+subtractThreeNumbers(10, 20);
 subtractThreeNumbers(10, 20, 15);

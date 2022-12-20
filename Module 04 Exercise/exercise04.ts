@@ -21,5 +21,5 @@ addThreeNumbers(10, 20, 30);
 // let subtractThreeNumbers = (x:number, y:number, z:number): number => x - y - z;
 let subtractThreeNumbers = (x: number, y: number, z = 100): number => x - y - z;
 
-// subtractThreeNumbers(10, 20);
+subtractThreeNumbers(10, 20);
 subtractThreeNumbers(10, 20, 15); 
