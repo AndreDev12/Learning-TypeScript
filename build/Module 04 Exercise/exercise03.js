@@ -14,11 +14,11 @@
 // }
 // addNumbers(1, 2); // Returns 3
 // addNumbers(1);    // Returns 1
-function addNumbers(x, y = 25) {
-    return x + y;
-}
+// function addNumbers(x: number, y = 25): number{
+//     return x + y;
+// }
 addNumbers(1, 2); // Returns 3
-addNumbers(1); // Returns 26
+// addNumbers(1); // Returns 26
 let addAllNumbers = (firstNumber, ...restOfNumbers) => {
     let total = firstNumber;
     for (let counter = 0; counter < restOfNumbers.length; counter++) {
