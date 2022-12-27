@@ -45,3 +45,12 @@ let myArray1 = buildArray(12, 'ascending');
 let myArray2 = buildArray(8, 'descending');
 console.log(myArray1);
 console.log(myArray2);
+// Ejercicio 2
+function loanCalculator(principal, interestRate, months = 12) {
+    let interest = interestRate / 1200; // Calculates the monthly interest rate 
+    let payment;
+    payment = principal * interest / (1 - (Math.pow(1 / (1 + interest), months)));
+    return payment.toFixed(2);
+}
+let myLoan = loanCalculator(1000, 5);
+console.log(myLoan);
