@@ -33,5 +33,8 @@ class Car{
     }
 
     // Methods
+    accelerate(speed: number): string {
+        return `${this.worker()} is accelerating to ${speed} MPH.`
+    }
 }
 

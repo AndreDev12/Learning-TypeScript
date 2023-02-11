@@ -24,4 +24,8 @@ class Car {
             throw new Error('Doors must be an even number');
         }
     }
+    // Methods
+    accelerate(speed) {
+        return `${this.worker()} is accelerating to ${speed} MPH.`;
+    }
 }
